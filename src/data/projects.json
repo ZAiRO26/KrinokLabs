@@ -1,0 +1,204 @@
+{
+    "projects": [
+        {
+            "id": "ford-mapping",
+            "title": "FORD",
+            "slug": "ford-mapping",
+            "category": "immersive",
+            "tags": [
+                "Mapping",
+                "Live Show"
+            ],
+            "thumbnail": "/images/projects/ford-thumb.jpg",
+            "heroImage": "/images/projects/ford-hero.jpg",
+            "description": "Immersive projection mapping experience for Ford's flagship launch event.",
+            "client": "Ford Motor Company",
+            "year": "2024",
+            "services": [
+                "Creative Direction",
+                "3D Animation",
+                "Projection Mapping"
+            ],
+            "featured": true
+        },
+        {
+            "id": "rabanne-dooh",
+            "title": "RABANNE",
+            "slug": "rabanne-dooh",
+            "category": "brand",
+            "tags": [
+                "DOOH",
+                "Campaign"
+            ],
+            "thumbnail": "/images/projects/rabanne-thumb.jpg",
+            "heroImage": "/images/projects/rabanne-hero.jpg",
+            "description": "Digital out-of-home campaign for Rabanne's new fragrance launch.",
+            "client": "Rabanne",
+            "year": "2024",
+            "services": [
+                "Art Direction",
+                "Motion Design",
+                "Media Planning"
+            ],
+            "featured": true
+        },
+        {
+            "id": "aop-languedoc",
+            "title": "AOP LANGUEDOC",
+            "slug": "aop-languedoc",
+            "category": "immersive",
+            "tags": [
+                "Mapping",
+                "Exhibition"
+            ],
+            "thumbnail": "/images/projects/aop-thumb.jpg",
+            "heroImage": "/images/projects/aop-hero.jpg",
+            "description": "Heritage celebration through architectural projection mapping.",
+            "client": "AOP Languedoc",
+            "year": "2023",
+            "services": [
+                "Creative Direction",
+                "Content Production",
+                "Technical Direction"
+            ],
+            "featured": true
+        },
+        {
+            "id": "samsung-digital",
+            "title": "SAMSUNG",
+            "slug": "samsung-digital",
+            "category": "digital",
+            "tags": [
+                "Web",
+                "Interactive"
+            ],
+            "thumbnail": "/images/projects/samsung-thumb.jpg",
+            "heroImage": "/images/projects/samsung-hero.jpg",
+            "description": "Interactive digital experience for Samsung's Galaxy launch.",
+            "client": "Samsung",
+            "year": "2024",
+            "services": [
+                "UX Design",
+                "WebGL Development",
+                "Motion Design"
+            ],
+            "featured": false
+        },
+        {
+            "id": "dior-exhibition",
+            "title": "DIOR",
+            "slug": "dior-exhibition",
+            "category": "immersive",
+            "tags": [
+                "Exhibition",
+                "Installation"
+            ],
+            "thumbnail": "/images/projects/dior-thumb.jpg",
+            "heroImage": "/images/projects/dior-hero.jpg",
+            "description": "Immersive exhibition experience celebrating Dior's heritage.",
+            "client": "Dior",
+            "year": "2023",
+            "services": [
+                "Spatial Design",
+                "Interactive Installation",
+                "Sound Design"
+            ],
+            "featured": false
+        },
+        {
+            "id": "nike-brand",
+            "title": "NIKE",
+            "slug": "nike-brand",
+            "category": "brand",
+            "tags": [
+                "Brand Film",
+                "Campaign"
+            ],
+            "thumbnail": "/images/projects/nike-thumb.jpg",
+            "heroImage": "/images/projects/nike-hero.jpg",
+            "description": "Brand film capturing the spirit of urban athletes.",
+            "client": "Nike",
+            "year": "2023",
+            "services": [
+                "Direction",
+                "Cinematography",
+                "Post Production"
+            ],
+            "featured": false
+        },
+        {
+            "id": "spotify-live",
+            "title": "SPOTIFY",
+            "slug": "spotify-live",
+            "category": "immersive",
+            "tags": [
+                "Live Show",
+                "Concert"
+            ],
+            "thumbnail": "/images/projects/spotify-thumb.jpg",
+            "heroImage": "/images/projects/spotify-hero.jpg",
+            "description": "Live concert visuals for Spotify's flagship artist showcase.",
+            "client": "Spotify",
+            "year": "2024",
+            "services": [
+                "Real-time Graphics",
+                "Stage Design",
+                "Live Direction"
+            ],
+            "featured": false
+        },
+        {
+            "id": "bmw-digital",
+            "title": "BMW",
+            "slug": "bmw-digital",
+            "category": "digital",
+            "tags": [
+                "App",
+                "AR"
+            ],
+            "thumbnail": "/images/projects/bmw-thumb.jpg",
+            "heroImage": "/images/projects/bmw-hero.jpg",
+            "description": "Augmented reality configurator for BMW's electric lineup.",
+            "client": "BMW",
+            "year": "2024",
+            "services": [
+                "AR Development",
+                "3D Modeling",
+                "UX Design"
+            ],
+            "featured": false
+        }
+    ],
+    "categories": [
+        {
+            "id": "all",
+            "label": "All"
+        },
+        {
+            "id": "immersive",
+            "label": "Immersive"
+        },
+        {
+            "id": "brand",
+            "label": "Brand"
+        },
+        {
+            "id": "digital",
+            "label": "Digital"
+        }
+    ],
+    "tags": [
+        "Mapping",
+        "Live Show",
+        "DOOH",
+        "Campaign",
+        "Exhibition",
+        "Installation",
+        "Web",
+        "Interactive",
+        "Brand Film",
+        "Concert",
+        "App",
+        "AR"
+    ]
+}

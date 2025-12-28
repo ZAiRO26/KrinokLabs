@@ -1,0 +1,403 @@
+{
+    "industries": [
+        {
+            "id": "finance",
+            "slug": "finance",
+            "title": "Finance & Fintech",
+            "subtitle": "Secure financial solutions",
+            "description": "Cutting-edge financial technology solutions for banks, payment providers, and fintech startups.",
+            "heroImage": "/images/industries/finance-hero.jpg",
+            "stats": {
+                "value": "5x",
+                "label": "ROI Increase"
+            },
+            "solutions": [
+                {
+                    "title": "Payment Gateways",
+                    "description": "Secure, PCI-compliant payment processing systems with multi-currency support."
+                },
+                {
+                    "title": "Trading Platforms",
+                    "description": "Real-time trading systems with advanced charting and order management."
+                },
+                {
+                    "title": "Risk Management",
+                    "description": "AI-powered fraud detection and risk assessment solutions."
+                },
+                {
+                    "title": "Mobile Banking",
+                    "description": "Secure mobile banking apps with biometric authentication."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Regional Bank",
+                    "result": "50% reduction in fraud",
+                    "description": "AI-powered fraud detection system"
+                },
+                {
+                    "client": "Payment Startup",
+                    "result": "1M+ transactions/day",
+                    "description": "Scalable payment infrastructure"
+                }
+            ],
+            "technologies": [
+                "Stripe",
+                "Plaid",
+                "AWS",
+                "Kubernetes",
+                "Python",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": "commerce",
+            "slug": "commerce",
+            "title": "E-Commerce & Retail",
+            "subtitle": "Digital commerce excellence",
+            "description": "Transform your retail business with powerful e-commerce platforms and omnichannel solutions.",
+            "heroImage": "/images/industries/commerce-hero.jpg",
+            "stats": {
+                "value": "77%",
+                "label": "Faster Delivery"
+            },
+            "solutions": [
+                {
+                    "title": "Online Storefronts",
+                    "description": "Custom e-commerce websites with seamless checkout experiences."
+                },
+                {
+                    "title": "Marketplace Platforms",
+                    "description": "Multi-vendor marketplaces with seller management and analytics."
+                },
+                {
+                    "title": "Inventory Systems",
+                    "description": "Real-time inventory tracking across multiple warehouses."
+                },
+                {
+                    "title": "POS Integration",
+                    "description": "Unified point-of-sale systems for online and offline sales."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Fashion Brand",
+                    "result": "3x revenue growth",
+                    "description": "Headless commerce migration"
+                },
+                {
+                    "client": "Grocery Chain",
+                    "result": "40% faster fulfillment",
+                    "description": "Inventory automation"
+                }
+            ],
+            "technologies": [
+                "Shopify",
+                "Next.js",
+                "Stripe",
+                "Algolia",
+                "Sanity",
+                "Redis"
+            ]
+        },
+        {
+            "id": "healthcare",
+            "slug": "healthcare",
+            "title": "Healthcare & Medical",
+            "subtitle": "Digital health innovation",
+            "description": "HIPAA-compliant healthcare solutions that improve patient outcomes and streamline operations.",
+            "heroImage": "/images/industries/healthcare-hero.jpg",
+            "stats": {
+                "value": "99%",
+                "label": "Faster Processes"
+            },
+            "solutions": [
+                {
+                    "title": "Telemedicine Apps",
+                    "description": "Video consultation platforms with scheduling and prescriptions."
+                },
+                {
+                    "title": "Patient Portals",
+                    "description": "Secure patient access to records, appointments, and results."
+                },
+                {
+                    "title": "Health Monitoring",
+                    "description": "IoT-connected wearables and remote patient monitoring."
+                },
+                {
+                    "title": "EHR Systems",
+                    "description": "Electronic health records with interoperability standards."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Merck",
+                    "result": "99% faster R&D",
+                    "description": "AI research acceleration platform"
+                },
+                {
+                    "client": "Hospital Network",
+                    "result": "50K+ patients served",
+                    "description": "Telemedicine platform"
+                }
+            ],
+            "technologies": [
+                "HL7 FHIR",
+                "AWS HIPAA",
+                "React Native",
+                "Node.js",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": "education",
+            "slug": "education",
+            "title": "Education & EdTech",
+            "subtitle": "Future of learning",
+            "description": "Innovative educational technology that makes learning engaging, accessible, and effective.",
+            "heroImage": "/images/industries/education-hero.jpg",
+            "stats": {
+                "value": "2x",
+                "label": "User Engagement"
+            },
+            "solutions": [
+                {
+                    "title": "LMS Platforms",
+                    "description": "Comprehensive learning management systems with course creation tools."
+                },
+                {
+                    "title": "Virtual Classrooms",
+                    "description": "Live video classes with interactive whiteboards and breakout rooms."
+                },
+                {
+                    "title": "Assessment Tools",
+                    "description": "Automated testing, grading, and progress tracking."
+                },
+                {
+                    "title": "Student Portals",
+                    "description": "Self-service portals for enrollment, payments, and resources."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Online University",
+                    "result": "100K+ students",
+                    "description": "Scalable LMS platform"
+                },
+                {
+                    "client": "K-12 District",
+                    "result": "85% engagement rate",
+                    "description": "Gamified learning app"
+                }
+            ],
+            "technologies": [
+                "React",
+                "WebRTC",
+                "Node.js",
+                "MongoDB",
+                "AWS",
+                "Stripe"
+            ]
+        },
+        {
+            "id": "proptech",
+            "slug": "proptech",
+            "title": "Real Estate & PropTech",
+            "subtitle": "Smart property solutions",
+            "description": "Technology solutions that revolutionize how properties are bought, sold, managed, and experienced.",
+            "heroImage": "/images/industries/proptech-hero.jpg",
+            "stats": {
+                "value": "60%",
+                "label": "More Engagement"
+            },
+            "solutions": [
+                {
+                    "title": "Property Listings",
+                    "description": "Advanced search platforms with AI-powered recommendations."
+                },
+                {
+                    "title": "Virtual Tours",
+                    "description": "3D property walkthroughs and VR experiences."
+                },
+                {
+                    "title": "Smart Buildings",
+                    "description": "IoT-powered building management and energy optimization."
+                },
+                {
+                    "title": "Tenant Portals",
+                    "description": "Rent payments, maintenance requests, and communication tools."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Real Estate Startup",
+                    "result": "60% engagement boost",
+                    "description": "AI property recommendations"
+                },
+                {
+                    "client": "Property Manager",
+                    "result": "30% cost reduction",
+                    "description": "Smart building automation"
+                }
+            ],
+            "technologies": [
+                "React",
+                "Three.js",
+                "Python",
+                "TensorFlow",
+                "AWS IoT",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": "manufacturing",
+            "slug": "manufacturing",
+            "title": "Manufacturing & Industrial",
+            "subtitle": "Industry 4.0 solutions",
+            "description": "Digital transformation for manufacturing with IoT, automation, and predictive analytics.",
+            "heroImage": "/images/industries/manufacturing-hero.jpg",
+            "stats": {
+                "value": "40%",
+                "label": "Efficiency Gain"
+            },
+            "solutions": [
+                {
+                    "title": "Predictive Maintenance",
+                    "description": "AI-powered equipment monitoring and failure prediction."
+                },
+                {
+                    "title": "Supply Chain",
+                    "description": "End-to-end supply chain visibility and optimization."
+                },
+                {
+                    "title": "Quality Control",
+                    "description": "Computer vision for automated quality inspection."
+                },
+                {
+                    "title": "Factory Automation",
+                    "description": "Robotics integration and process automation."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Auto Manufacturer",
+                    "result": "40% less downtime",
+                    "description": "Predictive maintenance system"
+                },
+                {
+                    "client": "Electronics Factory",
+                    "result": "99.5% quality rate",
+                    "description": "Vision-based QC"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "AWS IoT",
+                "Kafka",
+                "TimescaleDB",
+                "Docker"
+            ]
+        },
+        {
+            "id": "logistics",
+            "slug": "logistics",
+            "title": "Logistics & Supply Chain",
+            "subtitle": "Optimized delivery networks",
+            "description": "Streamline your logistics operations with route optimization, tracking, and automation.",
+            "heroImage": "/images/industries/logistics-hero.jpg",
+            "stats": {
+                "value": "35%",
+                "label": "Cost Reduction"
+            },
+            "solutions": [
+                {
+                    "title": "Route Optimization",
+                    "description": "AI-powered delivery route planning and scheduling."
+                },
+                {
+                    "title": "Fleet Management",
+                    "description": "Real-time vehicle tracking and driver management."
+                },
+                {
+                    "title": "Warehouse Automation",
+                    "description": "Robotics and inventory management systems."
+                },
+                {
+                    "title": "Last-Mile Delivery",
+                    "description": "Customer-facing tracking and delivery notifications."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Delivery Company",
+                    "result": "35% fuel savings",
+                    "description": "Route optimization platform"
+                },
+                {
+                    "client": "3PL Provider",
+                    "result": "2x throughput",
+                    "description": "Warehouse automation"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "OR-Tools",
+                "React Native",
+                "PostgreSQL",
+                "Redis",
+                "Kafka"
+            ]
+        },
+        {
+            "id": "greentech",
+            "slug": "greentech",
+            "title": "GreenTech & Sustainability",
+            "subtitle": "Technology for the planet",
+            "description": "Sustainable technology solutions for environmental monitoring, clean energy, and carbon reduction.",
+            "heroImage": "/images/industries/greentech-hero.jpg",
+            "stats": {
+                "value": "50%",
+                "label": "Carbon Reduction"
+            },
+            "solutions": [
+                {
+                    "title": "Carbon Tracking",
+                    "description": "Measure, report, and offset carbon emissions."
+                },
+                {
+                    "title": "Energy Management",
+                    "description": "Smart grid and renewable energy optimization."
+                },
+                {
+                    "title": "Environmental Monitoring",
+                    "description": "IoT sensors for air, water, and soil quality."
+                },
+                {
+                    "title": "Sustainability Reporting",
+                    "description": "ESG compliance and reporting dashboards."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "client": "Energy Company",
+                    "result": "50% emissions cut",
+                    "description": "Carbon tracking platform"
+                },
+                {
+                    "client": "Municipality",
+                    "result": "Real-time monitoring",
+                    "description": "Environmental sensor network"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "React",
+                "AWS IoT",
+                "InfluxDB",
+                "Grafana",
+                "TensorFlow"
+            ]
+        }
+    ]
+}

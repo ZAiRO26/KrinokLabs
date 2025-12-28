@@ -10,25 +10,31 @@ gsap.registerPlugin(ScrollTrigger);
 interface HeroTextProps {
     text: string;
     className?: string;
+    serifWords?: string[]; // Words to style with serif font
 }
 
-export default function HeroText({ text, className = '' }: HeroTextProps) {
+export default function HeroText({ text, className = '', serifWords = ['BREATHTAKING'] }: HeroTextProps) {
     const containerRef = useRef<HTMLDivElement>(null);
     const textRef = useRef<HTMLHeadingElement>(null);
 
     useGSAP(() => {
         if (!textRef.current) return;
 
-        // Split text into characters
-        const chars = text.split('');
-        textRef.current.innerHTML = chars
-            .map((char, index) => {
-                if (char === ' ') {
-                    return '<span class="char space">&nbsp;</span>';
-                }
-                return `<span class="char" style="display: inline-block">${char}</span>`;
+        // Split text into words first, then characters
+        const words = text.split(' ');
+
+        textRef.current.innerHTML = words
+            .map((word) => {
+                const isSerifWord = serifWords.some(sw => word.toUpperCase().includes(sw.toUpperCase()));
+                const wordClass = isSerifWord ? 'word serif-word' : 'word';
+
+                const chars = word.split('').map((char) => {
+                    return `<span class="char" style="display: inline-block">${char}</span>`;
+                }).join('');
+
+                return `<span class="${wordClass}">${chars}</span>`;
             })
-            .join('');
+            .join('<span class="char space">&nbsp;</span>');
 
         const charElements = textRef.current.querySelectorAll('.char');
 
@@ -97,18 +103,39 @@ export default function HeroText({ text, className = '' }: HeroTextProps) {
         <div ref={containerRef} className={className}>
             <h1
                 ref={textRef}
-                style={{
-                    fontSize: 'clamp(2.5rem, 10vw, 8rem)',
-                    fontWeight: 700,
-                    letterSpacing: '-0.04em',
-                    lineHeight: 0.95,
-                    textTransform: 'uppercase',
-                    textAlign: 'center',
-                    perspective: '1000px',
-                }}
+                className="hero-text"
             >
                 {text}
             </h1>
+
+            <style jsx>{`
+                .hero-text {
+                    font-size: clamp(2.5rem, 10vw, 8rem);
+                    font-weight: 700;
+                    letter-spacing: -0.04em;
+                    line-height: 0.95;
+                    text-transform: uppercase;
+                    text-align: center;
+                    perspective: 1000px;
+                }
+                
+                .hero-text :global(.word) {
+                    display: inline-block;
+                    white-space: nowrap;
+                }
+                
+                .hero-text :global(.serif-word) {
+                    font-family: 'Playfair Display', var(--font-serif), Georgia, serif;
+                    font-style: italic;
+                    font-weight: 400;
+                    text-transform: lowercase;
+                }
+                
+                .hero-text :global(.serif-word .char) {
+                    text-transform: lowercase;
+                }
+            `}</style>
         </div>
     );
 }
+

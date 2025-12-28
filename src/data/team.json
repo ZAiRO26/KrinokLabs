@@ -1,0 +1,36 @@
+[
+    {
+        "id": "ravi",
+        "name": "Ravi Saxena",
+        "role": "Founder & CEO",
+        "focus": "Vision & Strategy",
+        "bio": "Leading the company's strategic direction and technology innovation.",
+        "image": "/team/ravi.jpg",
+        "social": {
+            "linkedin": "https://linkedin.com/in/ravisaxena",
+            "twitter": "https://twitter.com/ravisaxena"
+        }
+    },
+    {
+        "id": "shikhar",
+        "name": "Shikhar Saxena",
+        "role": "Head of Marketing & Sales",
+        "focus": "Growth & Partnerships",
+        "bio": "Driving business growth and building strategic partnerships.",
+        "image": "/team/shikhar.jpg",
+        "social": {
+            "linkedin": "https://linkedin.com/in/shikharsaxena"
+        }
+    },
+    {
+        "id": "priya",
+        "name": "Priya Sharma",
+        "role": "Digital & Social Media Lead",
+        "focus": "Content & Campaigns",
+        "bio": "Creating compelling content and managing digital presence.",
+        "image": "/team/priya.jpg",
+        "social": {
+            "linkedin": "https://linkedin.com/in/priyasharma"
+        }
+    }
+]

@@ -7,7 +7,10 @@ import { gsap } from 'gsap';
 
 const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/work', label: 'Work' },
+    { href: '/services', label: 'Services' },
+    { href: '/industries', label: 'Industries' },
+    { href: '/clients', label: 'Clients' },
+    { href: '/insights', label: 'Insights' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' },
 ];

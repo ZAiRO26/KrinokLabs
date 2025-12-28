@@ -1,0 +1,145 @@
+{
+    "categories": [
+        {
+            "id": "ideation",
+            "title": "Ideation",
+            "description": "From concept to roadmap",
+            "services": [
+                {
+                    "name": "Strategy & Consulting",
+                    "description": "Business analysis and digital transformation roadmaps"
+                },
+                {
+                    "name": "Market Research",
+                    "description": "Competitive analysis and user insights"
+                },
+                {
+                    "name": "MVP Development",
+                    "description": "Rapid prototyping to validate ideas"
+                },
+                {
+                    "name": "User Research",
+                    "description": "Understanding your audience needs"
+                }
+            ]
+        },
+        {
+            "id": "development",
+            "title": "Development",
+            "description": "Building scalable solutions",
+            "services": [
+                {
+                    "name": "Web Development",
+                    "description": "Custom websites and web applications"
+                },
+                {
+                    "name": "Mobile Development",
+                    "description": "iOS and Android native/cross-platform apps"
+                },
+                {
+                    "name": "Cloud & API",
+                    "description": "Serverless architecture and integrations"
+                },
+                {
+                    "name": "DevOps",
+                    "description": "CI/CD pipelines and infrastructure"
+                }
+            ]
+        },
+        {
+            "id": "design",
+            "title": "Design",
+            "description": "Crafting memorable experiences",
+            "services": [
+                {
+                    "name": "UI/UX Design",
+                    "description": "User-centered interface design"
+                },
+                {
+                    "name": "Design Systems",
+                    "description": "Scalable component libraries"
+                },
+                {
+                    "name": "Prototyping",
+                    "description": "Interactive mockups and testing"
+                },
+                {
+                    "name": "Brand Identity",
+                    "description": "Visual identity and guidelines"
+                }
+            ]
+        },
+        {
+            "id": "ai-data",
+            "title": "AI & Data",
+            "description": "Intelligence-driven solutions",
+            "services": [
+                {
+                    "name": "Machine Learning",
+                    "description": "Custom ML models and predictions"
+                },
+                {
+                    "name": "Data Analytics",
+                    "description": "Insights from your data"
+                },
+                {
+                    "name": "NLP Solutions",
+                    "description": "Chatbots and language processing"
+                },
+                {
+                    "name": "Computer Vision",
+                    "description": "Image and video analysis"
+                }
+            ]
+        },
+        {
+            "id": "maintenance",
+            "title": "Maintenance",
+            "description": "Keeping you running",
+            "services": [
+                {
+                    "name": "24/7 Monitoring",
+                    "description": "Uptime and performance tracking"
+                },
+                {
+                    "name": "Performance Optimization",
+                    "description": "Speed and efficiency improvements"
+                },
+                {
+                    "name": "Security Audits",
+                    "description": "Vulnerability assessment and fixes"
+                },
+                {
+                    "name": "Support & Updates",
+                    "description": "Ongoing maintenance and upgrades"
+                }
+            ]
+        }
+    ],
+    "cooperationModels": [
+        {
+            "id": "dedicated",
+            "title": "Dedicated Teams",
+            "description": "A full team working exclusively on your project",
+            "icon": "team"
+        },
+        {
+            "id": "augmentation",
+            "title": "Staff Augmentation",
+            "description": "Extend your team with our specialists",
+            "icon": "users"
+        },
+        {
+            "id": "consulting",
+            "title": "Consulting",
+            "description": "Expert advice and strategic guidance",
+            "icon": "lightbulb"
+        },
+        {
+            "id": "agile",
+            "title": "Agile Projects",
+            "description": "Sprint-based delivery with full transparency",
+            "icon": "sprint"
+        }
+    ]
+}

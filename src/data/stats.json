@@ -1,0 +1,49 @@
+{
+    "company": [
+        {
+            "value": "800+",
+            "label": "Projects Delivered"
+        },
+        {
+            "value": "15+",
+            "label": "Years Experience"
+        },
+        {
+            "value": "50+",
+            "label": "Expert Team"
+        },
+        {
+            "value": "500+",
+            "label": "Happy Clients"
+        }
+    ],
+    "contact": {
+        "emails": {
+            "business": "hello@codetazos.com",
+            "careers": "careers@codetazos.com",
+            "press": "press@codetazos.com"
+        },
+        "phone": "+919354785960",
+        "whatsapp": "+919354785960"
+    },
+    "caseStudies": [
+        {
+            "client": "Merck",
+            "stat": "99%",
+            "description": "Faster R&D productivity",
+            "detail": "From 6 months to 6 hours"
+        },
+        {
+            "client": "Real Estate AI",
+            "stat": "60%",
+            "description": "User engagement increase",
+            "detail": "Via hyper-personalization"
+        },
+        {
+            "client": "Mobile App Redesign",
+            "stat": "2x",
+            "description": "Faster delivery",
+            "detail": "Via team extension"
+        }
+    ]
+}

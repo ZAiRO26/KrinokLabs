@@ -1,0 +1,390 @@
+{
+    "services": [
+        {
+            "id": "development",
+            "slug": "development",
+            "title": "Custom Software Development",
+            "subtitle": "Building scalable digital solutions",
+            "description": "We create custom software solutions tailored to your business needs, from web applications to enterprise systems.",
+            "heroImage": "/images/services/development-hero.jpg",
+            "stats": {
+                "value": "500+",
+                "label": "Projects Delivered"
+            },
+            "features": [
+                {
+                    "title": "Web Development",
+                    "description": "Full-stack web applications using React, Next.js, Node.js, and modern cloud infrastructure.",
+                    "icon": "globe"
+                },
+                {
+                    "title": "Mobile Development",
+                    "description": "Native and cross-platform mobile apps for iOS and Android using React Native and Flutter.",
+                    "icon": "smartphone"
+                },
+                {
+                    "title": "Cloud Architecture",
+                    "description": "Scalable cloud solutions on AWS, Azure, and GCP with serverless and containerized deployments.",
+                    "icon": "cloud"
+                },
+                {
+                    "title": "API Development",
+                    "description": "RESTful and GraphQL APIs with robust authentication, documentation, and integration support.",
+                    "icon": "code"
+                }
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "Node.js",
+                "Python",
+                "AWS",
+                "Docker",
+                "PostgreSQL",
+                "MongoDB"
+            ],
+            "caseStudy": {
+                "client": "Enterprise Client",
+                "result": "50% faster deployment cycles",
+                "description": "Modernized legacy systems to cloud-native architecture"
+            }
+        },
+        {
+            "id": "app-development",
+            "slug": "app-development",
+            "title": "Mobile App Development",
+            "subtitle": "Apps that users love",
+            "description": "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",
+            "heroImage": "/images/services/app-hero.jpg",
+            "stats": {
+                "value": "100+",
+                "label": "Apps Launched"
+            },
+            "features": [
+                {
+                    "title": "iOS Development",
+                    "description": "Native Swift applications optimized for iPhone and iPad with App Store deployment.",
+                    "icon": "apple"
+                },
+                {
+                    "title": "Android Development",
+                    "description": "Kotlin-based Android apps with Material Design and Play Store optimization.",
+                    "icon": "android"
+                },
+                {
+                    "title": "Cross-Platform",
+                    "description": "React Native and Flutter solutions for unified iOS and Android development.",
+                    "icon": "layers"
+                },
+                {
+                    "title": "App Maintenance",
+                    "description": "Ongoing updates, performance monitoring, and feature enhancements.",
+                    "icon": "refresh"
+                }
+            ],
+            "technologies": [
+                "React Native",
+                "Flutter",
+                "Swift",
+                "Kotlin",
+                "Firebase",
+                "Redux",
+                "TypeScript"
+            ],
+            "caseStudy": {
+                "client": "E-Commerce Brand",
+                "result": "2x faster delivery",
+                "description": "Redesigned mobile app with 4.8 star rating"
+            }
+        },
+        {
+            "id": "design",
+            "slug": "design",
+            "title": "Product Design & UI/UX",
+            "subtitle": "Design that drives results",
+            "description": "User-centered design that combines aesthetics with functionality to create memorable digital experiences.",
+            "heroImage": "/images/services/design-hero.jpg",
+            "stats": {
+                "value": "95%",
+                "label": "Client Satisfaction"
+            },
+            "features": [
+                {
+                    "title": "UI Design",
+                    "description": "Beautiful, intuitive interfaces that align with your brand and delight users.",
+                    "icon": "palette"
+                },
+                {
+                    "title": "UX Research",
+                    "description": "User research, personas, journey mapping, and usability testing.",
+                    "icon": "users"
+                },
+                {
+                    "title": "Design Systems",
+                    "description": "Scalable component libraries and design tokens for consistent experiences.",
+                    "icon": "grid"
+                },
+                {
+                    "title": "Prototyping",
+                    "description": "Interactive prototypes in Figma for rapid iteration and stakeholder feedback.",
+                    "icon": "play"
+                }
+            ],
+            "technologies": [
+                "Figma",
+                "Adobe XD",
+                "Sketch",
+                "Principle",
+                "InVision",
+                "Framer"
+            ],
+            "caseStudy": {
+                "client": "SaaS Startup",
+                "result": "40% increase in conversions",
+                "description": "Complete redesign of onboarding experience"
+            }
+        },
+        {
+            "id": "ai",
+            "slug": "ai",
+            "title": "AI & Data Solutions",
+            "subtitle": "Intelligence-powered innovation",
+            "description": "Harness the power of artificial intelligence and data analytics to transform your business operations.",
+            "heroImage": "/images/services/ai-hero.jpg",
+            "stats": {
+                "value": "99%",
+                "label": "Process Automation"
+            },
+            "features": [
+                {
+                    "title": "Machine Learning",
+                    "description": "Custom ML models for prediction, classification, and recommendation systems.",
+                    "icon": "brain"
+                },
+                {
+                    "title": "Natural Language Processing",
+                    "description": "Chatbots, sentiment analysis, and document processing with LLMs.",
+                    "icon": "message"
+                },
+                {
+                    "title": "Computer Vision",
+                    "description": "Image recognition, object detection, and visual inspection systems.",
+                    "icon": "eye"
+                },
+                {
+                    "title": "Data Analytics",
+                    "description": "Business intelligence dashboards and predictive analytics.",
+                    "icon": "chart"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "PyTorch",
+                "OpenAI",
+                "LangChain",
+                "Pandas",
+                "Spark"
+            ],
+            "caseStudy": {
+                "client": "Merck Pharmaceuticals",
+                "result": "99% faster R&D",
+                "description": "AI-powered research acceleration platform"
+            }
+        },
+        {
+            "id": "maintenance",
+            "slug": "maintenance",
+            "title": "Maintenance & Support",
+            "subtitle": "Keeping you running 24/7",
+            "description": "Comprehensive support and maintenance services to ensure your applications perform at their best.",
+            "heroImage": "/images/services/maintenance-hero.jpg",
+            "stats": {
+                "value": "99.9%",
+                "label": "Uptime SLA"
+            },
+            "features": [
+                {
+                    "title": "24/7 Monitoring",
+                    "description": "Real-time monitoring with instant alerts and automated incident response.",
+                    "icon": "monitor"
+                },
+                {
+                    "title": "Performance Optimization",
+                    "description": "Continuous performance tuning, caching strategies, and load optimization.",
+                    "icon": "zap"
+                },
+                {
+                    "title": "Security Updates",
+                    "description": "Regular security patches, vulnerability assessments, and compliance audits.",
+                    "icon": "shield"
+                },
+                {
+                    "title": "Feature Updates",
+                    "description": "Ongoing feature development and enhancement based on user feedback.",
+                    "icon": "plus"
+                }
+            ],
+            "technologies": [
+                "DataDog",
+                "New Relic",
+                "Sentry",
+                "PagerDuty",
+                "Terraform",
+                "Kubernetes"
+            ],
+            "caseStudy": {
+                "client": "FinTech Platform",
+                "result": "Zero downtime for 2 years",
+                "description": "Mission-critical payment system maintenance"
+            }
+        },
+        {
+            "id": "ecommerce",
+            "slug": "ecommerce",
+            "title": "E-Commerce Solutions",
+            "subtitle": "Sell more, sell smarter",
+            "description": "End-to-end e-commerce solutions from custom storefronts to marketplace platforms and payment integration.",
+            "heroImage": "/images/services/ecommerce-hero.jpg",
+            "stats": {
+                "value": "77%",
+                "label": "Faster Delivery"
+            },
+            "features": [
+                {
+                    "title": "Custom Storefronts",
+                    "description": "Headless commerce with Next.js, Shopify, and custom backends.",
+                    "icon": "store"
+                },
+                {
+                    "title": "Payment Integration",
+                    "description": "Stripe, PayPal, Razorpay, and custom payment gateway integration.",
+                    "icon": "credit-card"
+                },
+                {
+                    "title": "Inventory Management",
+                    "description": "Real-time inventory tracking, multi-warehouse support, and automation.",
+                    "icon": "package"
+                },
+                {
+                    "title": "Analytics & CRM",
+                    "description": "Customer insights, purchase analytics, and marketing automation.",
+                    "icon": "trending-up"
+                }
+            ],
+            "technologies": [
+                "Shopify",
+                "WooCommerce",
+                "Stripe",
+                "Next.js",
+                "Sanity",
+                "Algolia"
+            ],
+            "caseStudy": {
+                "client": "D2C Brand",
+                "result": "3x revenue growth",
+                "description": "Headless commerce migration with personalization"
+            }
+        },
+        {
+            "id": "marketing",
+            "slug": "social-media-marketing",
+            "title": "Social Media Marketing",
+            "subtitle": "Grow your digital presence",
+            "description": "Strategic social media marketing to build brand awareness, engage audiences, and drive conversions.",
+            "heroImage": "/images/services/marketing-hero.jpg",
+            "stats": {
+                "value": "10M+",
+                "label": "Reach Generated"
+            },
+            "features": [
+                {
+                    "title": "Content Strategy",
+                    "description": "Data-driven content calendars and creative campaigns.",
+                    "icon": "calendar"
+                },
+                {
+                    "title": "Community Management",
+                    "description": "Active community engagement and reputation management.",
+                    "icon": "users"
+                },
+                {
+                    "title": "Influencer Marketing",
+                    "description": "Influencer partnerships and ambassador programs.",
+                    "icon": "star"
+                },
+                {
+                    "title": "Analytics & Reporting",
+                    "description": "Comprehensive performance tracking and ROI analysis.",
+                    "icon": "bar-chart"
+                }
+            ],
+            "technologies": [
+                "Meta Business Suite",
+                "Hootsuite",
+                "Sprout Social",
+                "Buffer",
+                "Canva"
+            ],
+            "caseStudy": {
+                "client": "Lifestyle Brand",
+                "result": "500% follower growth",
+                "description": "12-month brand awareness campaign"
+            }
+        },
+        {
+            "id": "products",
+            "slug": "products",
+            "title": "Digital Products",
+            "subtitle": "18+ specialized solutions",
+            "description": "A comprehensive suite of digital products and services across development, marketing, AI, and creative domains.",
+            "heroImage": "/images/services/products-hero.jpg",
+            "stats": {
+                "value": "18+",
+                "label": "Product Categories"
+            },
+            "features": [
+                {
+                    "title": "Development Suite",
+                    "description": "Web apps, mobile apps, APIs, cloud infrastructure, and DevOps.",
+                    "icon": "code"
+                },
+                {
+                    "title": "Marketing Suite",
+                    "description": "SEO, social media, paid ads, content marketing, and email campaigns.",
+                    "icon": "megaphone"
+                },
+                {
+                    "title": "AI Suite",
+                    "description": "Chatbots, virtual assistants, AI photography, and automation.",
+                    "icon": "cpu"
+                },
+                {
+                    "title": "Creative Suite",
+                    "description": "Branding, UI/UX, motion graphics, and video production.",
+                    "icon": "image"
+                }
+            ],
+            "productList": [
+                "Custom Web Development",
+                "Mobile App Development",
+                "E-Commerce Solutions",
+                "Cloud Migration",
+                "AI Chatbots",
+                "Virtual AI Photography",
+                "Instagram Automation",
+                "Meta/Instagram Ads",
+                "SEO Optimization",
+                "Content Marketing",
+                "Brand Identity Design",
+                "UI/UX Design",
+                "Motion Graphics",
+                "Video Production",
+                "Data Analytics",
+                "CRM Integration",
+                "Payment Solutions",
+                "Maintenance & Support"
+            ]
+        }
+    ]
+}

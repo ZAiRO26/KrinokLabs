@@ -9,163 +9,163 @@ import { useStore } from '@/store/useStore';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutContent() {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const { setCursorState } = useStore();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { setCursorState } = useStore();
 
-    useGSAP(() => {
-        // Animate SVG annotations on scroll
-        const paths = document.querySelectorAll('.annotation-path');
+  useGSAP(() => {
+    // Animate SVG annotations on scroll
+    const paths = document.querySelectorAll('.annotation-path');
 
-        paths.forEach((path) => {
-            const pathElement = path as SVGPathElement;
-            const length = pathElement.getTotalLength();
+    paths.forEach((path) => {
+      const pathElement = path as SVGPathElement;
+      const length = pathElement.getTotalLength();
 
-            gsap.set(pathElement, {
-                strokeDasharray: length,
-                strokeDashoffset: length,
-            });
+      gsap.set(pathElement, {
+        strokeDasharray: length,
+        strokeDashoffset: length,
+      });
 
-            gsap.to(pathElement, {
-                strokeDashoffset: 0,
-                duration: 1.5,
-                ease: 'power2.out',
-                scrollTrigger: {
-                    trigger: pathElement,
-                    start: 'top 80%',
-                    toggleActions: 'play none none reverse',
-                },
-            });
-        });
-    }, { scope: containerRef });
+      gsap.to(pathElement, {
+        strokeDashoffset: 0,
+        duration: 1.5,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: pathElement,
+          start: 'top 80%',
+          toggleActions: 'play none none reverse',
+        },
+      });
+    });
+  }, { scope: containerRef });
 
-    return (
-        <div ref={containerRef} className="about-page">
-            {/* Graph Paper Background */}
-            <div className="graph-paper" />
+  return (
+    <div ref={containerRef} className="about-page">
+      {/* Graph Paper Background */}
+      <div className="graph-paper" />
 
-            {/* Hero Section */}
-            <section className="about-hero">
-                <div className="container">
-                    <p className="label">About Us</p>
-                    <h1 className="heading-xl">
-                        THINKERS<br />AND MAKERS
-                    </h1>
-                </div>
+      {/* Hero Section */}
+      <section className="about-hero">
+        <div className="container">
+          <p className="label">About Us</p>
+          <h1 className="heading-xl">
+            THINKERS<br />AND MAKERS
+          </h1>
+        </div>
 
-                {/* SVG Arrow Annotation */}
-                <svg className="annotation" viewBox="0 0 200 100" style={{ top: '60%', left: '60%' }}>
-                    <path
-                        className="annotation-path"
-                        d="M10,50 Q50,10 100,50 T190,50"
-                        fill="none"
-                        stroke="#FF3333"
-                        strokeWidth="2"
-                    />
-                    <polygon
-                        points="180,45 195,50 180,55"
-                        fill="#FF3333"
-                    />
-                </svg>
-            </section>
+        {/* SVG Arrow Annotation */}
+        <svg className="annotation" viewBox="0 0 200 100" style={{ top: '60%', left: '60%' }}>
+          <path
+            className="annotation-path"
+            d="M10,50 Q50,10 100,50 T190,50"
+            fill="none"
+            stroke="#FF3333"
+            strokeWidth="2"
+          />
+          <polygon
+            points="180,45 195,50 180,55"
+            fill="#FF3333"
+          />
+        </svg>
+      </section>
 
-            {/* Intro Section */}
-            <section className="about-intro section">
-                <div className="container">
-                    <div className="intro-grid">
-                        <div className="intro-text">
-                            <h2 className="heading-lg">
-                                We provide creative direction and build unique relationships,
-                                to design projects that will have the best impact for our clients.
-                            </h2>
-                        </div>
-                        <div className="intro-description">
-                            <p className="body-lg">
-                                Founded in 2020, Krinok is an independent creative agency specializing
-                                in immersive experiences, brand content, and digital products. We blend
-                                design, motion, and technology to turn ordinary ideas into breathtaking realities.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      {/* Intro Section */}
+      <section className="about-intro section">
+        <div className="container">
+          <div className="intro-grid">
+            <div className="intro-text">
+              <h2 className="heading-lg">
+                We provide a complete suite of development and marketing services,
+                to deliver projects that have maximum impact for our clients.
+              </h2>
+            </div>
+            <div className="intro-description">
+              <p className="body-lg">
+                With over 15 years of experience and 800+ projects delivered, we are
+                a team of 50+ experts specializing in web development, mobile apps,
+                and AI solutions. We handle the tech so you can focus on growth.
+              </p>
+            </div>
+          </div>
+        </div>
 
-                {/* Circle annotation */}
-                <svg className="annotation" viewBox="0 0 100 100" style={{ top: '30%', right: '10%' }}>
-                    <circle
-                        className="annotation-path"
-                        cx="50" cy="50" r="40"
-                        fill="none"
-                        stroke="#D4AF37"
-                        strokeWidth="1"
-                    />
-                </svg>
-            </section>
+        {/* Circle annotation */}
+        <svg className="annotation" viewBox="0 0 100 100" style={{ top: '30%', right: '10%' }}>
+          <circle
+            className="annotation-path"
+            cx="50" cy="50" r="40"
+            fill="none"
+            stroke="#D4AF37"
+            strokeWidth="1"
+          />
+        </svg>
+      </section>
 
-            {/* Values Section */}
-            <section className="about-values section">
-                <div className="container">
-                    <p className="label">Our Values</p>
+      {/* Values Section */}
+      <section className="about-values section">
+        <div className="container">
+          <p className="label">Our Values</p>
 
-                    <div className="values-grid">
-                        {[
-                            { num: '01', title: 'Vision First', desc: 'We start with a clear creative vision before diving into execution.' },
-                            { num: '02', title: 'Craft Matters', desc: 'Every detail is considered, every pixel is intentional.' },
-                            { num: '03', title: 'Push Boundaries', desc: 'We embrace new technologies and unconventional approaches.' },
-                            { num: '04', title: 'Collaborate', desc: 'The best work comes from genuine partnerships with our clients.' },
-                        ].map((value) => (
-                            <div
-                                key={value.num}
-                                className="value-card"
-                                onMouseEnter={() => setCursorState('hover')}
-                                onMouseLeave={() => setCursorState('default')}
-                            >
-                                <span className="value-num">{value.num}</span>
-                                <h3 className="heading-md">{value.title}</h3>
-                                <p className="body-lg">{value.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+          <div className="values-grid">
+            {[
+              { num: '01', title: 'Innovation First', desc: 'We embrace new technologies and unconventional approaches to solve problems.' },
+              { num: '02', title: 'Client-Centric', desc: 'Your success is our success. We build genuine partnerships with our clients.' },
+              { num: '03', title: 'Quality Delivery', desc: 'Every detail is considered, every line of code is intentional.' },
+              { num: '04', title: 'Agile Mindset', desc: 'Rapid iteration and transparent communication throughout the project.' },
+            ].map((value) => (
+              <div
+                key={value.num}
+                className="value-card"
+                onMouseEnter={() => setCursorState('hover')}
+                onMouseLeave={() => setCursorState('default')}
+              >
+                <span className="value-num">{value.num}</span>
+                <h3 className="heading-md">{value.title}</h3>
+                <p className="body-lg">{value.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            {/* Team Section */}
-            <section className="about-team section" style={{ background: 'var(--color-white)', color: 'var(--color-black)' }}>
-                <div className="container">
-                    <p className="label" style={{ color: 'var(--color-gray)' }}>The Team</p>
-                    <h2 className="heading-lg" style={{ marginBottom: '3rem' }}>
-                        A collective of designers, developers, and dreamers.
-                    </h2>
+      {/* Team Section */}
+      <section className="about-team section" style={{ background: 'var(--color-white)', color: 'var(--color-black)' }}>
+        <div className="container">
+          <p className="label" style={{ color: 'var(--color-gray)' }}>The Team</p>
+          <h2 className="heading-lg" style={{ marginBottom: '3rem' }}>
+            A collective of designers, developers, and dreamers.
+          </h2>
 
-                    <div className="team-grid">
-                        {[
-                            { name: 'Alex Chen', role: 'Founder & Creative Director' },
-                            { name: 'Sarah Kim', role: 'Head of Technology' },
-                            { name: 'Marcus Webb', role: 'Design Director' },
-                            { name: 'Elena Rossi', role: 'Producer' },
-                        ].map((member, i) => (
-                            <div
-                                key={member.name}
-                                className="team-member"
-                                onMouseEnter={() => setCursorState('hover')}
-                                onMouseLeave={() => setCursorState('default')}
-                            >
-                                <div
-                                    className="team-member__image"
-                                    style={{
-                                        background: `linear-gradient(135deg, 
+          <div className="team-grid">
+            {[
+              { name: 'Ravi Saxena', role: 'Founder & CEO', focus: 'Vision & Strategy' },
+              { name: 'Shikhar Saxena', role: 'Head of Marketing & Sales', focus: 'Growth & Partnerships' },
+              { name: 'Priya Sharma', role: 'Digital & Social Media Lead', focus: 'Content & Campaigns' },
+            ].map((member, i) => (
+              <div
+                key={member.name}
+                className="team-member"
+                onMouseEnter={() => setCursorState('hover')}
+                onMouseLeave={() => setCursorState('default')}
+              >
+                <div
+                  className="team-member__image"
+                  style={{
+                    background: `linear-gradient(135deg, 
                       hsl(${(i * 60) % 360}, 20%, 80%), 
                       hsl(${(i * 60 + 40) % 360}, 30%, 70%)
                     )`,
-                                    }}
-                                />
-                                <h4>{member.name}</h4>
-                                <p>{member.role}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                  }}
+                />
+                <h4>{member.name}</h4>
+                <p>{member.role}</p>
+                <span className="team-member__focus">{member.focus}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            <style jsx>{`
+      <style jsx>{`
         .about-page {
           position: relative;
           min-height: 100vh;
@@ -294,6 +294,6 @@ export default function AboutContent() {
           }
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 }

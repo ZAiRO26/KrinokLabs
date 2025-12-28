@@ -1,204 +1,252 @@
 {
     "projects": [
         {
-            "id": "ford-mapping",
-            "title": "FORD",
-            "slug": "ford-mapping",
-            "category": "immersive",
+            "id": "merck-rnd",
+            "title": "MERCK",
+            "slug": "merck-rnd",
+            "category": "healthcare",
             "tags": [
-                "Mapping",
-                "Live Show"
+                "Healthcare",
+                "AI"
             ],
-            "thumbnail": "/images/projects/ford-thumb.jpg",
-            "heroImage": "/images/projects/ford-hero.jpg",
-            "description": "Immersive projection mapping experience for Ford's flagship launch event.",
-            "client": "Ford Motor Company",
+            "thumbnail": "/images/projects/merck-thumb.jpg",
+            "heroImage": "/images/projects/merck-hero.jpg",
+            "description": "Revolutionized R&D productivity with AI-powered data analysis platform.",
+            "client": "Merck Pharmaceuticals",
             "year": "2024",
             "services": [
-                "Creative Direction",
-                "3D Animation",
-                "Projection Mapping"
+                "AI Development",
+                "Data Analytics",
+                "Cloud Architecture"
             ],
+            "stats": {
+                "value": "99%",
+                "label": "Faster R&D"
+            },
             "featured": true
         },
         {
-            "id": "rabanne-dooh",
-            "title": "RABANNE",
-            "slug": "rabanne-dooh",
-            "category": "brand",
+            "id": "realestate-ai",
+            "title": "PROPTECH AI",
+            "slug": "realestate-ai",
+            "category": "proptech",
             "tags": [
-                "DOOH",
-                "Campaign"
+                "PropTech",
+                "AI"
             ],
-            "thumbnail": "/images/projects/rabanne-thumb.jpg",
-            "heroImage": "/images/projects/rabanne-hero.jpg",
-            "description": "Digital out-of-home campaign for Rabanne's new fragrance launch.",
-            "client": "Rabanne",
+            "thumbnail": "/images/projects/proptech-thumb.jpg",
+            "heroImage": "/images/projects/proptech-hero.jpg",
+            "description": "Hyper-personalized property recommendations using machine learning.",
+            "client": "Real Estate Startup",
             "year": "2024",
             "services": [
-                "Art Direction",
-                "Motion Design",
-                "Media Planning"
-            ],
-            "featured": true
-        },
-        {
-            "id": "aop-languedoc",
-            "title": "AOP LANGUEDOC",
-            "slug": "aop-languedoc",
-            "category": "immersive",
-            "tags": [
-                "Mapping",
-                "Exhibition"
-            ],
-            "thumbnail": "/images/projects/aop-thumb.jpg",
-            "heroImage": "/images/projects/aop-hero.jpg",
-            "description": "Heritage celebration through architectural projection mapping.",
-            "client": "AOP Languedoc",
-            "year": "2023",
-            "services": [
-                "Creative Direction",
-                "Content Production",
-                "Technical Direction"
-            ],
-            "featured": true
-        },
-        {
-            "id": "samsung-digital",
-            "title": "SAMSUNG",
-            "slug": "samsung-digital",
-            "category": "digital",
-            "tags": [
-                "Web",
-                "Interactive"
-            ],
-            "thumbnail": "/images/projects/samsung-thumb.jpg",
-            "heroImage": "/images/projects/samsung-hero.jpg",
-            "description": "Interactive digital experience for Samsung's Galaxy launch.",
-            "client": "Samsung",
-            "year": "2024",
-            "services": [
-                "UX Design",
-                "WebGL Development",
-                "Motion Design"
-            ],
-            "featured": false
-        },
-        {
-            "id": "dior-exhibition",
-            "title": "DIOR",
-            "slug": "dior-exhibition",
-            "category": "immersive",
-            "tags": [
-                "Exhibition",
-                "Installation"
-            ],
-            "thumbnail": "/images/projects/dior-thumb.jpg",
-            "heroImage": "/images/projects/dior-hero.jpg",
-            "description": "Immersive exhibition experience celebrating Dior's heritage.",
-            "client": "Dior",
-            "year": "2023",
-            "services": [
-                "Spatial Design",
-                "Interactive Installation",
-                "Sound Design"
-            ],
-            "featured": false
-        },
-        {
-            "id": "nike-brand",
-            "title": "NIKE",
-            "slug": "nike-brand",
-            "category": "brand",
-            "tags": [
-                "Brand Film",
-                "Campaign"
-            ],
-            "thumbnail": "/images/projects/nike-thumb.jpg",
-            "heroImage": "/images/projects/nike-hero.jpg",
-            "description": "Brand film capturing the spirit of urban athletes.",
-            "client": "Nike",
-            "year": "2023",
-            "services": [
-                "Direction",
-                "Cinematography",
-                "Post Production"
-            ],
-            "featured": false
-        },
-        {
-            "id": "spotify-live",
-            "title": "SPOTIFY",
-            "slug": "spotify-live",
-            "category": "immersive",
-            "tags": [
-                "Live Show",
-                "Concert"
-            ],
-            "thumbnail": "/images/projects/spotify-thumb.jpg",
-            "heroImage": "/images/projects/spotify-hero.jpg",
-            "description": "Live concert visuals for Spotify's flagship artist showcase.",
-            "client": "Spotify",
-            "year": "2024",
-            "services": [
-                "Real-time Graphics",
-                "Stage Design",
-                "Live Direction"
-            ],
-            "featured": false
-        },
-        {
-            "id": "bmw-digital",
-            "title": "BMW",
-            "slug": "bmw-digital",
-            "category": "digital",
-            "tags": [
-                "App",
-                "AR"
-            ],
-            "thumbnail": "/images/projects/bmw-thumb.jpg",
-            "heroImage": "/images/projects/bmw-hero.jpg",
-            "description": "Augmented reality configurator for BMW's electric lineup.",
-            "client": "BMW",
-            "year": "2024",
-            "services": [
-                "AR Development",
-                "3D Modeling",
+                "Machine Learning",
+                "Web Development",
                 "UX Design"
             ],
+            "stats": {
+                "value": "60%",
+                "label": "Engagement Boost"
+            },
+            "featured": true
+        },
+        {
+            "id": "mobile-redesign",
+            "title": "MOBILE APP",
+            "slug": "mobile-redesign",
+            "category": "mobile",
+            "tags": [
+                "Mobile",
+                "React Native"
+            ],
+            "thumbnail": "/images/projects/mobile-thumb.jpg",
+            "heroImage": "/images/projects/mobile-hero.jpg",
+            "description": "Complete redesign and development of e-commerce mobile application.",
+            "client": "E-Commerce Brand",
+            "year": "2024",
+            "services": [
+                "Mobile Development",
+                "UI/UX Design",
+                "API Integration"
+            ],
+            "stats": {
+                "value": "2x",
+                "label": "Faster Delivery"
+            },
+            "featured": true
+        },
+        {
+            "id": "fintech-platform",
+            "title": "FINTECH",
+            "slug": "fintech-platform",
+            "category": "finance",
+            "tags": [
+                "Finance",
+                "Web App"
+            ],
+            "thumbnail": "/images/projects/fintech-thumb.jpg",
+            "heroImage": "/images/projects/fintech-hero.jpg",
+            "description": "Secure payment gateway and risk management dashboard.",
+            "client": "Financial Services",
+            "year": "2023",
+            "services": [
+                "Web Development",
+                "Payment Integration",
+                "Security Audit"
+            ],
+            "stats": {
+                "value": "5x",
+                "label": "ROI Increase"
+            },
+            "featured": false
+        },
+        {
+            "id": "ecommerce-marketplace",
+            "title": "MARKETPLACE",
+            "slug": "ecommerce-marketplace",
+            "category": "commerce",
+            "tags": [
+                "E-Commerce",
+                "Full Stack"
+            ],
+            "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+            "heroImage": "/images/projects/ecommerce-hero.jpg",
+            "description": "Multi-vendor marketplace with advanced inventory management.",
+            "client": "Retail Corporation",
+            "year": "2023",
+            "services": [
+                "Full Stack Development",
+                "Database Design",
+                "DevOps"
+            ],
+            "stats": {
+                "value": "77%",
+                "label": "Faster Delivery"
+            },
+            "featured": false
+        },
+        {
+            "id": "edtech-platform",
+            "title": "EDTECH LMS",
+            "slug": "edtech-platform",
+            "category": "education",
+            "tags": [
+                "Education",
+                "SaaS"
+            ],
+            "thumbnail": "/images/projects/edtech-thumb.jpg",
+            "heroImage": "/images/projects/edtech-hero.jpg",
+            "description": "Learning management system with virtual classrooms and assessments.",
+            "client": "Education Startup",
+            "year": "2023",
+            "services": [
+                "SaaS Development",
+                "Video Integration",
+                "Analytics"
+            ],
+            "stats": {
+                "value": "2x",
+                "label": "User Engagement"
+            },
+            "featured": false
+        },
+        {
+            "id": "healthcare-app",
+            "title": "TELEHEALTH",
+            "slug": "healthcare-app",
+            "category": "healthcare",
+            "tags": [
+                "Healthcare",
+                "Mobile"
+            ],
+            "thumbnail": "/images/projects/telehealth-thumb.jpg",
+            "heroImage": "/images/projects/telehealth-hero.jpg",
+            "description": "Telemedicine app connecting patients with healthcare providers.",
+            "client": "Healthcare Provider",
+            "year": "2024",
+            "services": [
+                "Mobile Development",
+                "HIPAA Compliance",
+                "Video Calling"
+            ],
+            "stats": {
+                "value": "50K+",
+                "label": "Active Users"
+            },
+            "featured": false
+        },
+        {
+            "id": "ai-chatbot",
+            "title": "AI ASSISTANT",
+            "slug": "ai-chatbot",
+            "category": "ai",
+            "tags": [
+                "AI",
+                "NLP"
+            ],
+            "thumbnail": "/images/projects/ai-thumb.jpg",
+            "heroImage": "/images/projects/ai-hero.jpg",
+            "description": "Intelligent customer support chatbot with natural language processing.",
+            "client": "Tech Enterprise",
+            "year": "2024",
+            "services": [
+                "NLP Development",
+                "API Integration",
+                "Cloud Deployment"
+            ],
+            "stats": {
+                "value": "80%",
+                "label": "Query Resolution"
+            },
             "featured": false
         }
     ],
     "categories": [
         {
             "id": "all",
-            "label": "All"
+            "label": "All Works"
         },
         {
-            "id": "immersive",
-            "label": "Immersive"
+            "id": "healthcare",
+            "label": "Healthcare"
         },
         {
-            "id": "brand",
-            "label": "Brand"
+            "id": "finance",
+            "label": "Finance"
         },
         {
-            "id": "digital",
-            "label": "Digital"
+            "id": "commerce",
+            "label": "E-Commerce"
+        },
+        {
+            "id": "education",
+            "label": "Education"
+        },
+        {
+            "id": "proptech",
+            "label": "PropTech"
+        },
+        {
+            "id": "ai",
+            "label": "AI/ML"
+        },
+        {
+            "id": "mobile",
+            "label": "Mobile"
         }
     ],
     "tags": [
-        "Mapping",
-        "Live Show",
-        "DOOH",
-        "Campaign",
-        "Exhibition",
-        "Installation",
-        "Web",
-        "Interactive",
-        "Brand Film",
-        "Concert",
-        "App",
-        "AR"
+        "Healthcare",
+        "AI",
+        "PropTech",
+        "Mobile",
+        "React Native",
+        "Finance",
+        "Web App",
+        "E-Commerce",
+        "Full Stack",
+        "Education",
+        "SaaS",
+        "NLP"
     ]
 }

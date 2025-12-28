@@ -1,0 +1,77 @@
+[
+    {
+        "id": "finance",
+        "title": "Finance & Fintech",
+        "description": "Secure payment systems, trading platforms, and risk management solutions",
+        "stats": {
+            "value": "5x",
+            "label": "ROI Increase"
+        },
+        "solutions": [
+            "Payment Gateways",
+            "Trading Platforms",
+            "Risk Management",
+            "Banking Apps"
+        ]
+    },
+    {
+        "id": "commerce",
+        "title": "E-Commerce & Retail",
+        "description": "Online marketplaces, inventory systems, and customer experience platforms",
+        "stats": {
+            "value": "77%",
+            "label": "Faster Delivery"
+        },
+        "solutions": [
+            "Online Stores",
+            "Marketplace Platforms",
+            "Inventory Systems",
+            "POS Integration"
+        ]
+    },
+    {
+        "id": "healthcare",
+        "title": "Healthcare & Medical",
+        "description": "Telemedicine, patient management, and health monitoring solutions",
+        "stats": {
+            "value": "99%",
+            "label": "Faster Processes"
+        },
+        "solutions": [
+            "Telemedicine Apps",
+            "Patient Portals",
+            "Health Monitoring",
+            "EHR Systems"
+        ]
+    },
+    {
+        "id": "education",
+        "title": "Education & EdTech",
+        "description": "Learning management systems and interactive educational platforms",
+        "stats": {
+            "value": "2x",
+            "label": "User Engagement"
+        },
+        "solutions": [
+            "LMS Platforms",
+            "Virtual Classrooms",
+            "Assessment Tools",
+            "Student Portals"
+        ]
+    },
+    {
+        "id": "proptech",
+        "title": "Real Estate & PropTech",
+        "description": "Property management, listing platforms, and smart building solutions",
+        "stats": {
+            "value": "60%",
+            "label": "More Engagement"
+        },
+        "solutions": [
+            "Property Listings",
+            "Virtual Tours",
+            "Smart Buildings",
+            "Tenant Portals"
+        ]
+    }
+]

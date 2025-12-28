@@ -5,99 +5,99 @@ import { useStore } from '@/store/useStore';
 
 // Dynamic import for R3F to avoid SSR issues
 const OfficeScene = dynamic(() => import('@/components/three/OfficeScene'), {
-    ssr: false,
-    loading: () => <div className="scene-loading" />,
+  ssr: false,
+  loading: () => <div className="scene-loading" />,
 });
 
 export default function ContactContent() {
-    const { setCursorState } = useStore();
+  const { setCursorState } = useStore();
 
-    return (
-        <div className="contact-page">
-            {/* 3D Office Scene Background */}
-            <div className="contact-scene">
-                <OfficeScene />
+  return (
+    <div className="contact-page">
+      {/* 3D Office Scene Background */}
+      <div className="contact-scene">
+        <OfficeScene />
+      </div>
+
+      {/* Contact Overlay */}
+      <div className="contact-overlay">
+        <div className="contact-content">
+          {/* Header */}
+          <div className="contact-header">
+            <p className="label">Get in Touch</p>
+            <h1 className="heading-xl">
+              LET&apos;S CREATE<br />TOGETHER
+            </h1>
+          </div>
+
+          {/* Contact Info Cards */}
+          <div className="contact-cards">
+            {/* Business Email Card */}
+            <a
+              href="mailto:hello@codetazos.com"
+              className="contact-card"
+              onMouseEnter={() => setCursorState('hover')}
+              onMouseLeave={() => setCursorState('default')}
+            >
+              <span className="contact-card__label">Business</span>
+              <span className="contact-card__value">hello@codetazos.com</span>
+            </a>
+
+            {/* WhatsApp Card */}
+            <a
+              href="https://wa.me/919354785960"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-card"
+              onMouseEnter={() => setCursorState('hover')}
+              onMouseLeave={() => setCursorState('default')}
+            >
+              <span className="contact-card__label">WhatsApp</span>
+              <span className="contact-card__value">+91 93547 85960</span>
+            </a>
+
+            {/* Careers Card */}
+            <a
+              href="mailto:careers@codetazos.com"
+              className="contact-card"
+              onMouseEnter={() => setCursorState('hover')}
+              onMouseLeave={() => setCursorState('default')}
+            >
+              <span className="contact-card__label">Careers</span>
+              <span className="contact-card__value">careers@codetazos.com</span>
+            </a>
+          </div>
+
+          {/* Social Links */}
+          <div className="contact-social">
+            <p className="label">Follow Us</p>
+            <div className="social-links">
+              {['LinkedIn', 'Instagram', 'Vimeo', 'Twitter'].map((social) => (
+                <a
+                  key={social}
+                  href={`https://${social.toLowerCase()}.com`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                  onMouseEnter={() => setCursorState('hover')}
+                  onMouseLeave={() => setCursorState('default')}
+                >
+                  {social}
+                </a>
+              ))}
             </div>
+          </div>
+        </div>
 
-            {/* Contact Overlay */}
-            <div className="contact-overlay">
-                <div className="contact-content">
-                    {/* Header */}
-                    <div className="contact-header">
-                        <p className="label">Get in Touch</p>
-                        <h1 className="heading-xl">
-                            LET&apos;S CREATE<br />TOGETHER
-                        </h1>
-                    </div>
+        {/* Bottom CTA */}
+        <div className="contact-cta">
+          <p className="body-lg">
+            Move your mouse to explore our virtual office space
+          </p>
+        </div>
+      </div>
 
-                    {/* Contact Info Cards */}
-                    <div className="contact-cards">
-                        {/* Email Card */}
-                        <a
-                            href="mailto:hello@krinok.com"
-                            className="contact-card"
-                            onMouseEnter={() => setCursorState('hover')}
-                            onMouseLeave={() => setCursorState('default')}
-                        >
-                            <span className="contact-card__label">Email</span>
-                            <span className="contact-card__value">hello@krinok.com</span>
-                        </a>
-
-                        {/* Phone Card */}
-                        <a
-                            href="tel:+12345678900"
-                            className="contact-card"
-                            onMouseEnter={() => setCursorState('hover')}
-                            onMouseLeave={() => setCursorState('default')}
-                        >
-                            <span className="contact-card__label">Phone</span>
-                            <span className="contact-card__value">+1 (234) 567-8900</span>
-                        </a>
-
-                        {/* Location Card */}
-                        <a
-                            href="https://maps.google.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="contact-card"
-                            onMouseEnter={() => setCursorState('hover')}
-                            onMouseLeave={() => setCursorState('default')}
-                        >
-                            <span className="contact-card__label">Office</span>
-                            <span className="contact-card__value">123 Creative Ave, NYC</span>
-                        </a>
-                    </div>
-
-                    {/* Social Links */}
-                    <div className="contact-social">
-                        <p className="label">Follow Us</p>
-                        <div className="social-links">
-                            {['LinkedIn', 'Instagram', 'Vimeo', 'Twitter'].map((social) => (
-                                <a
-                                    key={social}
-                                    href={`https://${social.toLowerCase()}.com`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="social-link"
-                                    onMouseEnter={() => setCursorState('hover')}
-                                    onMouseLeave={() => setCursorState('default')}
-                                >
-                                    {social}
-                                </a>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                {/* Bottom CTA */}
-                <div className="contact-cta">
-                    <p className="body-lg">
-                        Move your mouse to explore our virtual office space
-                    </p>
-                </div>
-            </div>
-
-            <style jsx>{`
+      <style jsx>{`
         .contact-page {
           position: relative;
           min-height: 100vh;
@@ -223,6 +223,6 @@ export default function ContactContent() {
           }
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 }

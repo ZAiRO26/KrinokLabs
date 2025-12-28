@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { useStore } from '@/store/useStore';
 import HeroText from '@/components/home/HeroText';
+import Marquee from '@/components/ui/Marquee';
 
 // Dynamic import for R3F to avoid SSR issues
 const HeroScene = dynamic(() => import('@/components/three/HeroScene'), {
@@ -59,8 +60,8 @@ export default function Home() {
 
         {/* Hero Content */}
         <div className="hero__content">
-          <p className="label">Independent Creative Agency</p>
-          <HeroText text="WE ARE TURNING ORDINARY INTO BREATHTAKING" />
+          <p className="label">Web Development Agency</p>
+          <HeroText text="YOUR VISION ENGINEERED" />
         </div>
       </section>
 
@@ -74,9 +75,9 @@ export default function Home() {
               onMouseLeave={() => setCursorState('default')}
             >
               <span className="label">01</span>
-              <h3 className="heading-md">Immersive Shows</h3>
+              <h3 className="heading-md">Web Development</h3>
               <p className="body-lg">
-                Creating unforgettable live experiences through projection mapping and interactive installations.
+                Custom websites and web applications built with modern frameworks and best practices.
               </p>
             </div>
 
@@ -86,9 +87,9 @@ export default function Home() {
               onMouseLeave={() => setCursorState('default')}
             >
               <span className="label">02</span>
-              <h3 className="heading-md">Brand Content</h3>
+              <h3 className="heading-md">Mobile Apps</h3>
               <p className="body-lg">
-                Crafting visual narratives that resonate with audiences and elevate brand identity.
+                Native and cross-platform mobile applications for iOS and Android platforms.
               </p>
             </div>
 
@@ -98,21 +99,24 @@ export default function Home() {
               onMouseLeave={() => setCursorState('default')}
             >
               <span className="label">03</span>
-              <h3 className="heading-md">Digital Experiences</h3>
+              <h3 className="heading-md">AI Solutions</h3>
               <p className="body-lg">
-                Building cutting-edge digital products that push the boundaries of interaction.
+                Machine learning, data analytics, and intelligent automation for your business.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Marquee Section - Like HKI's "ABOUT" */}
+      <Marquee text="EXPERTISE" direction="left" speed={1.5} />
+
       {/* Expertise Section */}
       <section className="expertise section" style={{ backgroundColor: 'var(--color-white)', color: 'var(--color-black)' }}>
         <div className="container">
           <p className="label" style={{ color: 'var(--color-gray)' }}>Expertise & Vision</p>
           <h2 className="heading-lg" style={{ marginTop: '2rem', maxWidth: '60ch' }}>
-            We are content Directors, we create vision and deliver finest creative & art direction thru all type of mediums by blending design, motion, and technology.
+            We provide a complete suite of development and marketing services for businesses. Let us handle the tech, so you can focus on growth.
           </h2>
         </div>
       </section>
